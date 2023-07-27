@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="@@base@@" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="viewport-fit=cover, width=device-width, height=device-height, initial-scale=1" />
+    <link rel="stylesheet" href="engine/main.css" />
+    <link rel="stylesheet" href="theme/sanfrancisco.css" />
+    <link rel="stylesheet" href="engine/katex/katex.min.css" />
+    <!--<link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />-->
+    <style>
+    :root{
+--logo: ;
+--darkaccent1color: #fff;
+--lightaccent1color: #fff;
+--accent2: #43aa8b;
+--accent3: #f9c74f;
+--accent4: #90be6d;
+--accent5: #f8961e;
+--accent6: #577590;
+--lighttitletextcolor: #fff;
+--darktitletextcolor: #fff;
+--lightbodytextcolor: #fff;
+--darkbodytextcolor: #fff;
+--lightbackgroundcolor: transparent;
+--darkbackgroundcolor: transparent;
+--bodyfont: jetbrains mono;
+--titlefont: avenir next;
+} 
+
+    </style>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="engine/print.css"
+      media="print"
+    />
+  </head>
+
+  <body class="responsive">
+    <div class="reveal">
+      <div class="slides"><section class="variable-size-headings light cover-container present has-dark-background fitted" data-background-color="#00a8ff" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-cover" style="width: 100%; font-size: 1rem;">
+        <div style=""><h1 id="getstartedwithfigma">Get started with Figma</h1>
+
+<p>Aug 2023</p></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section><section class="variable-size-headings light grid-container present has-dark-background fitted" data-background-color="#0f83ff" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-grid grid-items-4" style="width: 100%; font-size: 0.906rem;">
+        <div style=""><h2 id="howdoesthiswork">How does this work?</h2>
+
+<p>This training is divided in three sessions, plus a bonus one for Q&amp;A</p></div><div style=""><h3 id="1.justdoit">1. Just do it</h3>
+
+<ul>
+<li>Learn the basics of Figma</li>
+<li>Create a new design</li>
+<li>Add images and load fonts</li>
+<li>Export your design</li>
+</ul></div><div style=""><h3 id="2.doitproperly">2. Do it properly</h3>
+
+<ul>
+<li>Import elements from an existing library</li>
+<li>Create global styles</li>
+<li>Build your own components</li>
+<li>Publish your library</li>
+</ul></div><div style=""><h3 id="3.doitbetter">3. Do it better</h3>
+
+<ul>
+<li>Organise files and pages</li>
+<li>Add comments and collaborate</li>
+<li>Intro to prototypes</li>
+<li>Discover FigJam</li>
+</ul></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+</section><section class="variable-size-headings light title-container present has-dark-background fitted" data-background-color="#1e5fff" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-title" style="width: 100%; font-size: 1rem;">
+        <div style=""><h2 id="justdoit">Just do it</h2></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section><section class="variable-size-headings light default-container present has-dark-background fitted" data-background-color="#2e3bff" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-default" style="width: 100%; font-size: 1rem;">
+        <div style=""><h3 id="createanewfile">Create a new file</h3>
+
+<ul>
+<li>Login to Figma</li>
+<li>Click on <em>New Design File</em></li>
+<li>Give it a name</li>
+</ul></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section><section class="variable-size-headings light default-container present has-dark-background fitted" data-background-color="#3c27ff" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-default" style="width: 100%; font-size: 1rem;">
+        <div style=""><h3 id="setupaframe">Set up a frame</h3>
+
+<ul>
+<li>Use the Frame tool (<code class="hljs ebnf"><span class="hljs-attribute">F</span></code>) to create your first layer</li>
+<li>Pick a frame size from the ones available</li>
+<li>Don’t worry, you can always edit it later</li>
+</ul></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section><section class="variable-size-headings has-footnotes light default-container present has-dark-background fitted" data-background-color="#4a13ff" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-default" style="width: 100%; font-size: 1rem;">
+        <div style=""><h3 id="designalayout">Design a layout</h3>
+
+<ul>
+<li>Use the toolbar to create shapes and add text<sup><a href="#fn1" id="fnr1" title="see footnote" class="footnote">1</a></sup></li>
+<li>Use the right sidebar to edit and customise elements</li>
+</ul></div>
+      </div>
+      <div class="footnotes">
+<ol>
+
+<li id="fn1">
+<p>Draw rectangles (<code class="hljs ebnf"><span class="hljs-attribute">R</span></code>), circles and ovals (<code class="hljs ebnf"><span class="hljs-attribute">O</span></code>), and add text (<code class="hljs ebnf"><span class="hljs-attribute">T</span></code>) <a href="#fnr1" title="return to article" class="reversefootnote">↩︎</a></p>
+</li>
+
+</ol>
+</div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section><section class="variable-size-headings light default-container present has-dark-background fitted" data-background-color="#5900ff" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-default" style="width: 100%; font-size: 1rem;">
+        <div style=""><h3 id="cleanitup">Clean it up</h3>
+
+<ul>
+<li>Use the right sidebar to navigate through layers and rename them</li>
+<li>Move layers or use the right click menu to define the order of the layers</li>
+</ul></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section><section class="variable-size-headings light default-container present has-dark-background fitted" data-background-color="#6700ff" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-default" style="width: 100%; font-size: 1rem;">
+        <div style=""><h3 id="importimages">Import images</h3>
+
+<ul>
+<li>Drag and drop a file in Figma to import and image</li>
+<li>Or apply it as a background to a shape</li>
+<li>Inspect an element and use the right sidebar to replace it</li>
+</ul></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section><section class="variable-size-headings light default-container present has-dark-background fitted" data-background-color="#7400ff" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-default" style="width: 100%; font-size: 1rem;">
+        <div style=""><h3 id="importsvgs">Import SVGs</h3>
+
+<ul>
+<li>Same as for images, drag and drop an SVG in Figma</li>
+<li>Inspect it to edit it’s colour and change the line weight</li>
+</ul></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section><section class="variable-size-headings has-footnotes light default-container present has-dark-background fitted" data-background-color="#8300ff" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-default" style="width: 100%; font-size: 1rem;">
+        <div style=""><h3 id="importfonts">Import fonts</h3>
+
+<ul>
+<li>Desktop app: Figma will automatically read the files installed in your computer<sup><a href="#fn1" id="fnr1" title="see footnote" class="footnote">1</a></sup></li>
+<li>Web app: follow the instructions in <a href="https://help.figma.com/hc/en-us/articles/360039956894-Access-local-fonts-on-your-computer">this page</a> to install the font service</li>
+</ul></div>
+      </div>
+      <div class="footnotes">
+<ol>
+
+<li id="fn1">
+<p>If this doesn’t work on a newly installed font, try restarting your machine <a href="#fnr1" title="return to article" class="reversefootnote">↩︎</a></p>
+</li>
+
+</ol>
+</div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section><section class="variable-size-headings has-footnotes light default-container present has-dark-background fitted" data-background-color="#9500ff" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-default" style="width: 100%; font-size: 0.953rem;">
+        <div style=""><h3 id="exportit">Export it</h3>
+
+<ul>
+<li>Select the frame and use the right sidebar to export it in the formats you prefer</li>
+<li>You can export multiple formats at once</li>
+<li>Folders will be automatically created based on the frame name<sup><a href="#fn1" id="fnr1" title="see footnote" class="footnote">1</a></sup></li>
+</ul></div>
+      </div>
+      <div class="footnotes">
+<ol>
+
+<li id="fn1">
+<p>Figma reads slashes (<code class="hljs">/</code>) as new folders <a href="#fnr1" title="return to article" class="reversefootnote">↩︎</a></p>
+</li>
+
+</ol>
+</div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section><section class="variable-size-headings light title-container present has-dark-background fitted" data-background-color="#a900ff" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-title" style="width: 100%; font-size: 1rem;">
+        <div style=""><h2 id="doitproperly">Do it properly</h2></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section><section class="variable-size-headings light default-container present has-dark-background fitted" data-background-color="#bc00ff" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-default" style="width: 100%; font-size: 0.953rem;">
+        <div style=""><h3 id="loadalibrary">Load a library</h3>
+
+<ul>
+<li>In left sidebar, select <em>Assets</em>, then the book icon, and load an existing library</li>
+<li>Feel free to use any library you want since, while in your file, you will not edit anything in the source library</li>
+</ul></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section><section class="variable-size-headings light default-container present has-dark-background fitted" data-background-color="#ca00f3" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-default" style="width: 100%; font-size: 0.953rem;">
+        <div style=""><h3 id="usestylesandcomponentsfromthelibrary">Use styles and components from the library</h3>
+
+<ul>
+<li>Click on one of the elements you created before and load a style from the library</li>
+<li>Navigate through the assets in the left sidebar and drag and drop them in your file</li>
+</ul></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section><section class="variable-size-headings light default-container present has-dark-background fitted" data-background-color="#d800e9" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-default" style="width: 100%; font-size: 1rem;">
+        <div style=""><blockquote class="is-single-quote"><div class="line"></div>
+<p>But what if I want to create my own library?</p>
+<div class="line"></div></blockquote></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section><section class="variable-size-headings light default-container present has-dark-background fitted" data-background-color="#e600de" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-default" style="width: 100%; font-size: 0.953rem;">
+        <div style=""><h3 id="setupglobalcolours">Set up global colours</h3>
+
+<ul>
+<li>Select an element and navigate to the property you want to save (i.e. it’s colour)</li>
+<li>Click on the <code class="hljs diff"><span class="hljs-addition">+</span></code>, give it a name and voilà</li>
+<li>Apply the newly created global style to another item</li>
+</ul></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section><section class="variable-size-headings light default-container present has-dark-background fitted" data-background-color="#ee02c9" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-default" style="width: 100%; font-size: 1rem;">
+        <div style=""><h3 id="setupglobaltextstyles">Set up global text styles</h3>
+
+<ul>
+<li>Select a text element</li>
+<li>In the right sidebar’s lick on the icon next to <em>Text</em> and then create a new font style</li>
+<li>Apply the newly created global style to another item</li>
+</ul></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section><section class="variable-size-headings light default-container present has-dark-background fitted" data-background-color="#f605b5" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-default" style="width: 100%; font-size: 0.859rem;">
+        <div style=""><h3 id="editglobalstyles">Edit global styles</h3>
+
+<ul>
+<li>Click on an empty space in your Figma file</li>
+<li>On the right sidebar you can see a list of all the styles belonging to this file</li>
+<li>Edit them from here to automatically apply them to every item that uses them</li>
+</ul></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section><section class="variable-size-headings has-footnotes light default-container present has-dark-background fitted" data-background-color="#ff08a1" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-default" style="width: 100%; font-size: 1rem;">
+        <div style=""><h3 id="createcomponents">Create components</h3>
+
+<ul>
+<li>Select an element you want to reuse</li>
+<li>Click on <em>Create component</em> (<code class="hljs dos"><span class="hljs-built_in">Shift</span></code> + <code class="hljs ebnf"><span class="hljs-attribute">CTRL</span></code> + <code class="hljs ebnf"><span class="hljs-attribute">K</span></code>)<sup><a href="#fn1" id="fnr1" title="see footnote" class="footnote">1</a></sup></li>
+</ul></div>
+      </div>
+      <div class="footnotes">
+<ol>
+
+<li id="fn1">
+<p>Better also rename it to something easy to understand <a href="#fnr1" title="return to article" class="reversefootnote">↩︎</a></p>
+</li>
+
+</ol>
+</div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section><section class="variable-size-headings light default-container present has-dark-background fitted" data-background-color="#ff1786" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-default" style="width: 100%; font-size: 0.906rem;">
+        <div style=""><h3 id="editingcomponents">Editing components</h3>
+
+<ul>
+<li>Import the newly created component from the Assets library</li>
+<li>Go back to the main component and change something</li>
+<li>Check that the changes have been duplicated in the imported instance</li>
+</ul></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section><section class="variable-size-headings light default-container present has-dark-background fitted" data-background-color="#ff276c" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-default" style="width: 100%; font-size: 0.859rem;">
+        <div style=""><h3 id="breakingcomponents">Breaking components</h3>
+
+<ul>
+<li>Right click on an instance and select <em>Detach instance</em> (<code class="hljs ebnf"><span class="hljs-attribute">Alt</span></code> + <code class="hljs ebnf"><span class="hljs-attribute">CTRL</span></code> + <code class="hljs css"><span class="hljs-selector-tag">B</span></code>)</li>
+<li>Any change to the main component will not impact this element</li>
+<li>We try to use this as less as possible since it makes it difficult to maintain consistency</li>
+</ul></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section><section class="variable-size-headings light default-container present has-dark-background fitted" data-background-color="#ff3852" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-default" style="width: 100%; font-size: 1rem;">
+        <div style=""><h3 id="publishyourlibrary">Publish your library</h3>
+
+<ul>
+<li>In the left sidebar, under <em>Assets</em>, click on the book icon and the on <em>Publish</em> to allow everyone to load components and global styles in another file</li>
+</ul></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section><section class="variable-size-headings light title-container present has-dark-background fitted" data-background-color="#ff433f" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-title" style="width: 100%; font-size: 1rem;">
+        <div style=""><h2 id="doitbetter">Do it better</h2></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section><section class="variable-size-headings light default-container present has-dark-background fitted" data-background-color="#ff4e2b" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-default" style="width: 100%; font-size: 1rem;">
+        <div style=""><h3 id="filesandfolders">Files and Folders</h3>
+
+<ul>
+<li>Use the menu in the toolbar to move the file to a project</li>
+<li>If a file is not in a project, Figma will put it in the <em>Drafts</em></li>
+<li>Drafts are private unless manually shared</li>
+</ul></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section><section class="variable-size-headings light default-container present has-light-background fitted" data-background-color="#ff5a19" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-default" style="width: 100%; font-size: 1rem;">
+        <div style=""><h3 id="pagesandsections">Pages and Sections</h3>
+
+<ul>
+<li>In the left sidebar, create a new page to organise your file</li>
+<li>You can create sections (<code class="hljs dos"><span class="hljs-built_in">Shift</span></code> + <code class="hljs ebnf"><span class="hljs-attribute">S</span></code>) to group items in your pages</li>
+</ul></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section><section class="variable-size-headings light default-container present has-light-background fitted" data-background-color="#ff6710" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-default" style="width: 100%; font-size: 1rem;">
+        <div style=""><h3 id="sharing">Sharing</h3>
+
+<ul>
+<li>In the toolbar, click on <em>Share</em> to allow others to view or edit your file</li>
+<li>You can also share a link that navigates the user to the currently select item</li>
+</ul></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section><section class="variable-size-headings has-footnotes light default-container present has-light-background fitted" data-background-color="#ff7508" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-default" style="width: 100%; font-size: 0.859rem;">
+        <div style=""><h3 id="collaboration">Collaboration</h3>
+
+<ul>
+<li>Add comments using the button in the toolbar or by pressing <code class="hljs ebnf"><span class="hljs-attribute">C</span></code></li>
+<li>Comments will stay attached to the element they have been added to even if you move it</li>
+<li>You can tag people using <code class="hljs python"><span class="hljs-meta">@</span></code> and mark comments as resolved once they are not no longer needed<sup><a href="#fn1" id="fnr1" title="see footnote" class="footnote">1</a></sup></li>
+</ul></div>
+      </div>
+      <div class="footnotes">
+<ol>
+
+<li id="fn1">
+<p>Users need to have an account in Figma and will receive a notification via email <a href="#fnr1" title="return to article" class="reversefootnote">↩︎</a></p>
+</li>
+
+</ol>
+</div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section><section class="variable-size-headings has-footnotes light default-container present has-light-background fitted" data-background-color="#ff8300" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-default" style="width: 100%; font-size: 0.859rem;">
+        <div style=""><h3 id="prototypes">Prototypes</h3>
+
+<ul>
+<li>Using the right sidebar, switch to <em>Prototype mode</em></li>
+<li>Create connections between elements to link them</li>
+<li>Use the popup to modify animation settings</li>
+<li>Click on the <em>Present</em> icon in the toolbar to view your prototype<sup><a href="#fn1" id="fnr1" title="see footnote" class="footnote">1</a></sup></li>
+</ul></div>
+      </div>
+      <div class="footnotes">
+<ol>
+
+<li id="fn1">
+<p>Prototypes can be shared separately from the Figma file <a href="#fnr1" title="return to article" class="reversefootnote">↩︎</a></p>
+</li>
+
+</ol>
+</div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section><section class="variable-size-headings light default-container present has-light-background fitted" data-background-color="#ff9800" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-default" style="width: 100%; font-size: 1rem;">
+        <div style=""><h3 id="figjam">FigJam</h3>
+
+<p>FigJam files can be used to create mood boards, sketches, or share notes for a project</p>
+
+<ul>
+<li>Create a new FigJam file</li>
+<li>Play with it</li>
+</ul></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section><section class="variable-size-headings light title-container present has-light-background fitted" data-background-color="#ffae00" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      <div class="layout-title" style="width: 100%; font-size: 1rem;">
+        <div style=""><h2 id="qa">Q&amp;A</h2></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading"></div><div class="middle"></div><div class="trailing"></div></div>
+      
+</section></div>
+    </div>
+    <script src="engine/index.js"></script>
+    <!--<script src="engine/d3v4.min.js" charset="utf-8"></script>
+    <script src="engine/charts.min.js" charset="utf-8"></script>
+    <script src="engine/billboard.min.js"></script>-->
+    <script src="engine/pptxgen.min.js"></script>
+                                                   <script src="engine/pfill.js"></script>
+    <script src="engine/published.js"></script>
+
+    <script>
+      Reveal.configure({
+        progress: true,
+        keyboard: true,
+        dependencies: [
+          {
+            src: "engine/highlight.js",
+            sync: true,
+            callback: function () {
+              hljs.initHighlightingOnLoad();
+            },
+          },
+        ],
+      });
+    </script>
+  </body>
+</html>
